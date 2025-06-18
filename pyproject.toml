@@ -7,7 +7,9 @@ authors = [
     { name = "William Fondrie", email = "fondriew@gmail.com" }
 ]
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "numpy>=2.2.6",
+]
 
 [project.scripts]
 randomnames = "randomnames:main"
@@ -15,3 +17,8 @@ randomnames = "randomnames:main"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+]
