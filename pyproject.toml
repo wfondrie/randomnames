@@ -22,3 +22,7 @@ build-backend = "hatchling.build"
 dev = [
     "pytest>=8.4.1",
 ]
+
+[tool.ruff]
+line-length = 79
+target-version = "py313"

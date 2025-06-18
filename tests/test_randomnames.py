@@ -23,5 +23,5 @@ def test_create_custom_separator(sep):
     adj, animal = name.split(str(sep))
     assert adj in randomnames.ADJECTIVES
     assert animal in randomnames.ANIMALS
-    foo = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-    print(foo)
+    foo2 = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    print(foo2)
