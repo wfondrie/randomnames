@@ -23,4 +23,3 @@ def test_create_custom_separator(sep):
     adj, animal = name.split(str(sep))
     assert adj in randomnames.ADJECTIVES
     assert animal in randomnames.ANIMALS
-    raise ValueError("Fake error")
